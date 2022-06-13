@@ -1,0 +1,66 @@
+.container1{
+    padding-top: 5%;
+    margin-left: 2%;
+    flex-direction: column;
+}
+.con-img
+{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    image-rendering: auto;
+    margin-left: 2%;
+    float: right;
+    display: flex
+}
+
+.flx{
+    display: flex;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 70px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa-wikipedia {
+    background: #bbb7b7;
+    color: rgb(101, 100, 100);
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-amazon{
+    background: #c26e25;
+    color: white;
+  }
+  .references{
+    display: flex;
+  }
+  .footer{
+    justify-content: center;
+    font-style: italic;
+    background-color: #000000;
+    size: 40px;
+    color: aliceblue;
+    text-align: center;
+
+  }
+
+  @media (max-width:550px) {
+    .flx{
+        flex-direction: column;
+    }
+
+    .references{
+    flex-direction: column;
+  }
+
+}

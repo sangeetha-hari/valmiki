@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+#myButton{
+    background: black;
+    text-decoration-color: aliceblue;
+   color: aliceblue;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+color: aliceblue;
+}

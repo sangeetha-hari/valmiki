@@ -1,0 +1,29 @@
+.award{
+    text-align: center;
+    padding-top: 0%;
+    size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flx-b2{
+    display: flex;
+    border: 3px;
+    border-right-color: black;
+    background-color: antiquewhite;
+    gap: 10px;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    /* size: 20vh;
+    /* padding-block-end: 10px;
+    padding-left: 20px; */
+    border: 10px;
+    /* justify-content: center; */
+    margin-left: 10p; */
+}
+.flx-b3{
+    display: flex;
+    flex-grow: initial;
+}
